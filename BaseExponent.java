@@ -19,5 +19,7 @@ public class BaseExponent {
         System.out.print("Enter exponent: ");
         int exponent = sc.nextInt();
         calExponent(base, exponent);
+
+        sc.close();
     }
 }
